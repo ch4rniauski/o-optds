@@ -218,9 +218,10 @@ class RegistrationLog
             return;
         }
 
-        while (true)
+        for (int i = 0; i < 1; )
         {
             Console.WriteLine("Выберите, что необходимо именить:");
+            Console.WriteLine($"0 = Вернуться в главное меню");
             Console.WriteLine($"1 = Имя");
             Console.WriteLine($"2 = Адрес");
             Console.WriteLine($"3 = Номер договора");
@@ -230,13 +231,20 @@ class RegistrationLog
 
             switch (choise)
             {
+                case "0":
+                    i++;
+                    break;
                 case "1":
                     client.ChangeName();
+                    i++;
                     break;
                 case "2":
                     client.ChangeAddress();
+                    i++;
                     break;
                 case "3":
+                    client.ChangeContractNumber();
+                    i++;
                     break;
             }
         }
