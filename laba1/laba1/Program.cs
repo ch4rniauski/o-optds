@@ -1,6 +1,8 @@
 ﻿using System.Text.RegularExpressions;
 
+var regLogList = new List<RegistrationLog>();
 var registrationLog = new RegistrationLog();
+regLogList.Add(registrationLog);
 
 while (true)
 {
@@ -13,7 +15,7 @@ while (true)
 
     if (choise == "1")
     {
-        registrationLog.ChangeName();
+        registrationLog.ChangeName(regLogList);
         registrationLog.ChangePhoneNumber();
     }
     else if (choise == "2")
@@ -38,42 +40,135 @@ for (int i = 0; i < 1; )
     Console.WriteLine("6 = Изменить информацию о конкретном клиенте");
     Console.WriteLine("7 = Просмотреть информацию о конкретном клиенте");
     Console.WriteLine("8 = Завершить работу программы");
+    Console.WriteLine("9 = Просмотреть конкретную информацию о конкретном клиенте");
+    Console.WriteLine("10 = Добавить журнал");
     Console.Write(">> ");
 
     var choise = Console.ReadLine();
+    (bool, RegistrationLog?) cortege;
 
     switch (choise)
     {
         case "1":
-            registrationLog.ShowInfo();
+            cortege = FindOrganisation(regLogList);
+
+            if (cortege.Item1)
+            {
+                Console.WriteLine("Такой организации нет");
+                break;
+            }
+            cortege.Item2!.ShowInfo();
             break;
         case "2":
-            registrationLog.ChangeName();
+            cortege = FindOrganisation(regLogList);
+
+            if (cortege.Item1)
+            {
+                Console.WriteLine("Такой организации нет");
+                break;
+            }
+            cortege.Item2!.ChangeName(regLogList);
             break;
         case "3":
-            registrationLog.ChangePhoneNumber();
+            cortege = FindOrganisation(regLogList);
+
+            if (cortege.Item1)
+            {
+                Console.WriteLine("Такой организации нет");
+                break;
+            }
+            cortege.Item2!.ChangePhoneNumber();
             break;
         case "4":
-            registrationLog.ShowClientsList();
+            cortege = FindOrganisation(regLogList);
+
+            if (cortege.Item1)
+            {
+                Console.WriteLine("Такой организации нет");
+                break;
+            }
+            cortege.Item2!.ShowClientsList();
             break;
         case "5":
-            registrationLog.AddClient();
+            cortege = FindOrganisation(regLogList);
+
+            if (cortege.Item1)
+            {
+                Console.WriteLine("Такой организации нет");
+                break;
+            }
+            cortege.Item2!.AddClient();
             break;
         case "6":
-            registrationLog.ChangeClientInfo();
+            cortege = FindOrganisation(regLogList);
+
+            if (cortege.Item1)
+            {
+                Console.WriteLine("Такой организации нет");
+                break;
+            }
+            cortege.Item2!.ChangeClientInfo();
             break;
         case "7":
-            registrationLog.ShowClientInfo();
+            cortege = FindOrganisation(regLogList);
+
+            if (cortege.Item1)
+            {
+                Console.WriteLine("Такой организации нет");
+                break;
+            }
+            cortege.Item2!.ShowClientInfo();
             break;
         case "8":
             i++;
             break;
+        case "9":
+            cortege = FindOrganisation(regLogList);
+
+            if (cortege.Item1)
+            {
+                Console.WriteLine("Такой организации нет");
+                break;
+            }
+            cortege.Item2!.ShowClientInfoByParam();
+            break;
+        case "10":
+            AddRegLog(regLogList);
+            break;
     }
+}
+
+
+static void AddRegLog(List<RegistrationLog> regLogList)
+{
+    var registrationLog = new RegistrationLog();
+
+    registrationLog.ChangeName(regLogList);
+    registrationLog.ChangePhoneNumber();
+
+    regLogList.Add(registrationLog);
+}
+
+static (bool, RegistrationLog?) FindOrganisation(List<RegistrationLog> regLogList)
+{
+    string? name;
+    while (true)
+    {
+        Console.Write("Введите название организации: ");
+        name = Console.ReadLine();
+
+        if (string.IsNullOrWhiteSpace(name))
+            continue;
+        break;
+    }
+
+    var doesExist = regLogList.FirstOrDefault(r => r.Name.ToLower() == name.ToLower());
+    return ((doesExist is null), doesExist);
 }
 
 class RegistrationLog
 {
-    private string Name { get; set; } = string.Empty;
+    public string Name { get; set; } = string.Empty;
     private string PhoneNumber { get; set; } = string.Empty;
     private List<Client> Clients { get; set; } = new();
 
@@ -85,7 +180,7 @@ class RegistrationLog
         Console.WriteLine();
     }
 
-    public void ChangeName()
+    public void ChangeName(List<RegistrationLog> regLogList)
     {
         while (true)
         {
@@ -96,6 +191,14 @@ class RegistrationLog
 
             if (string.IsNullOrWhiteSpace(name))
                 continue;
+
+            var doesExist = regLogList.FirstOrDefault(r => r.Name == name);
+
+            if (doesExist is not null)
+            {
+                Console.WriteLine("Организация с таким именем уже есть");
+                continue;
+            }
 
             Name = name;
 
@@ -279,6 +382,45 @@ class RegistrationLog
 
         client.ShowInfo();
     }
+
+    public void ShowClientInfoByParam()
+    {
+        string? clientName;
+
+        while (true)
+        {
+            Console.Clear();
+            Console.Write("Введите имя клиента, информацию о котором желаете просмотреть: ");
+
+            clientName = Console.ReadLine();
+
+            Console.Clear();
+
+            if (string.IsNullOrWhiteSpace(clientName))
+                continue;
+            break;
+        }
+
+        var client = Clients.FirstOrDefault(c => c.Name.ToLower() == clientName.ToLower());
+
+        if (client is null)
+        {
+            Console.WriteLine("Клиент с данным именем не найден");
+            Console.WriteLine();
+            return;
+        }
+
+        while (true)
+        {
+            Console.Write("Введите параметр, по которому хотите просмотреть информацию: ");
+            var param = Console.ReadLine();
+
+            if (string.IsNullOrWhiteSpace(param))
+                continue;
+            client.ShowInfo(param);
+            break;
+        }
+    }
 }
 
 class Client
@@ -364,6 +506,35 @@ class Client
             Console.WriteLine("Ифнормации о номере договора клиента нет");
         else
             Console.WriteLine($"Адрес клиента: {ContractNumber}");
+
+        Console.WriteLine();
+    }
+
+    public void ShowInfo(string param)
+    {
+        switch (param.ToLower())
+        {
+            case "имя":
+                Console.Clear();
+                Console.WriteLine("Вы и так уже знаете имя пользователя, информацию о котором хотите найти =)");
+                break;
+            case "адрес":
+                Console.Clear();
+
+                if (string.IsNullOrWhiteSpace(Address))
+                    Console.WriteLine("Ифнормации об адресе данного клиента нет");
+                else
+                    Console.WriteLine($"Адрес клиента: {Address}");
+                break;
+            case "номер договора":
+                Console.Clear();
+
+                if (string.IsNullOrWhiteSpace(ContractNumber))
+                    Console.WriteLine("Ифнормации о номере договора клиента нет");
+                else
+                    Console.WriteLine($"Адрес клиента: {ContractNumber}");
+                break;
+        }
 
         Console.WriteLine();
     }

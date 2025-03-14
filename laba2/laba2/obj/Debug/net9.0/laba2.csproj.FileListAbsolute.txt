@@ -1,0 +1,15 @@
+C:\university\o-optds\laba2\laba2\bin\Debug\net9.0\laba2.exe
+C:\university\o-optds\laba2\laba2\bin\Debug\net9.0\laba2.deps.json
+C:\university\o-optds\laba2\laba2\bin\Debug\net9.0\laba2.runtimeconfig.json
+C:\university\o-optds\laba2\laba2\bin\Debug\net9.0\laba2.dll
+C:\university\o-optds\laba2\laba2\bin\Debug\net9.0\laba2.pdb
+C:\university\o-optds\laba2\laba2\obj\Debug\net9.0\laba2.GeneratedMSBuildEditorConfig.editorconfig
+C:\university\o-optds\laba2\laba2\obj\Debug\net9.0\laba2.AssemblyInfoInputs.cache
+C:\university\o-optds\laba2\laba2\obj\Debug\net9.0\laba2.AssemblyInfo.cs
+C:\university\o-optds\laba2\laba2\obj\Debug\net9.0\laba2.csproj.CoreCompileInputs.cache
+C:\university\o-optds\laba2\laba2\obj\Debug\net9.0\laba2.sourcelink.json
+C:\university\o-optds\laba2\laba2\obj\Debug\net9.0\laba2.dll
+C:\university\o-optds\laba2\laba2\obj\Debug\net9.0\refint\laba2.dll
+C:\university\o-optds\laba2\laba2\obj\Debug\net9.0\laba2.pdb
+C:\university\o-optds\laba2\laba2\obj\Debug\net9.0\laba2.genruntimeconfig.cache
+C:\university\o-optds\laba2\laba2\obj\Debug\net9.0\ref\laba2.dll
