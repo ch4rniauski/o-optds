@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\university\\o-optds\\laba4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FFC4D8FA-E206-44A1-A709-340319E9A193}|laba3\\laba4.csproj|d:\\university\\o-optds\\laba4\\laba3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFC4D8FA-E206-44A1-A709-340319E9A193}|laba3\\laba4.csproj|solutionrelative:laba3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FFC4D8FA-E206-44A1-A709-340319E9A193}|laba3\\laba4.csproj|d:\\university\\o-optds\\laba4\\laba3\\classes\\registrationlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FFC4D8FA-E206-44A1-A709-340319E9A193}|laba3\\laba4.csproj|solutionrelative:laba3\\classes\\registrationlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FFC4D8FA-E206-44A1-A709-340319E9A193}|laba3\\laba4.csproj|d:\\university\\o-optds\\laba4\\laba3\\classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FFC4D8FA-E206-44A1-A709-340319E9A193}|laba3\\laba4.csproj|solutionrelative:laba3\\classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFC4D8FA-E206-44A1-A709-340319E9A193}|laba3\\laba4.csproj|d:\\university\\o-optds\\laba4\\laba3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFC4D8FA-E206-44A1-A709-340319E9A193}|laba3\\laba4.csproj|solutionrelative:laba3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,64 +38,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LegalEntity.cs",
               "DocumentMoniker": "D:\\university\\o-optds\\laba4\\laba3\\Classes\\LegalEntity.cs",
               "RelativeDocumentMoniker": "laba3\\Classes\\LegalEntity.cs",
               "ToolTip": "D:\\university\\o-optds\\laba4\\laba3\\Classes\\LegalEntity.cs",
               "RelativeToolTip": "laba3\\Classes\\LegalEntity.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAYwEsAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAowFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T18:37:57.597Z"
+              "WhenOpened": "2025-03-15T18:37:57.597Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Individual.cs",
               "DocumentMoniker": "D:\\university\\o-optds\\laba4\\laba3\\Classes\\Individual.cs",
               "RelativeDocumentMoniker": "laba3\\Classes\\Individual.cs",
               "ToolTip": "D:\\university\\o-optds\\laba4\\laba3\\Classes\\Individual.cs",
               "RelativeToolTip": "laba3\\Classes\\Individual.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAuwDsAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowGgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T18:10:24.641Z"
+              "WhenOpened": "2025-03-15T18:10:24.641Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Client.cs",
               "DocumentMoniker": "D:\\university\\o-optds\\laba4\\laba3\\Classes\\Client.cs",
               "RelativeDocumentMoniker": "laba3\\Classes\\Client.cs",
               "ToolTip": "D:\\university\\o-optds\\laba4\\laba3\\Classes\\Client.cs",
               "RelativeToolTip": "laba3\\Classes\\Client.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAiwDcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAowH0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T18:09:27.687Z"
+              "WhenOpened": "2025-03-15T18:09:27.687Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RegistrationLog.cs",
               "DocumentMoniker": "D:\\university\\o-optds\\laba4\\laba3\\Classes\\RegistrationLog.cs",
               "RelativeDocumentMoniker": "laba3\\Classes\\RegistrationLog.cs",
               "ToolTip": "D:\\university\\o-optds\\laba4\\laba3\\Classes\\RegistrationLog.cs",
               "RelativeToolTip": "laba3\\Classes\\RegistrationLog.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAYwAUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAKUBAAAAAAAAAAAgwMQBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T18:06:45.123Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\university\\o-optds\\laba4\\laba3\\Program.cs",
               "RelativeDocumentMoniker": "laba3\\Program.cs",
               "ToolTip": "D:\\university\\o-optds\\laba4\\laba3\\Program.cs",
               "RelativeToolTip": "laba3\\Program.cs",
-              "ViewState": "AgIAAKcAAAAAAAAAAAAAAMMAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAFkBAAAAAAAAAAAowHkBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T17:56:49.372Z"
+              "WhenOpened": "2025-03-15T17:56:49.372Z",
+              "EditorCaption": ""
             }
           ]
         }
