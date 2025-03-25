@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\university\\o-optds\\laba6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{990436D7-2E7D-46D1-85BB-3951F71D3AF7}|laba6\\laba6.csproj|c:\\university\\o-optds\\laba6\\laba6\\classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{990436D7-2E7D-46D1-85BB-3951F71D3AF7}|laba6\\laba6.csproj|solutionrelative:laba6\\classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{990436D7-2E7D-46D1-85BB-3951F71D3AF7}|laba6\\laba6.csproj|c:\\university\\o-optds\\laba6\\laba6\\classes\\legalentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{990436D7-2E7D-46D1-85BB-3951F71D3AF7}|laba6\\laba6.csproj|solutionrelative:laba6\\classes\\legalentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{990436D7-2E7D-46D1-85BB-3951F71D3AF7}|laba6\\laba6.csproj|c:\\university\\o-optds\\laba6\\laba6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{990436D7-2E7D-46D1-85BB-3951F71D3AF7}|laba6\\laba6.csproj|solutionrelative:laba6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{990436D7-2E7D-46D1-85BB-3951F71D3AF7}|laba6\\laba6.csproj|c:\\university\\o-optds\\laba6\\laba6\\classes\\registrationlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{990436D7-2E7D-46D1-85BB-3951F71D3AF7}|laba6\\laba6.csproj|solutionrelative:laba6\\classes\\registrationlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{990436D7-2E7D-46D1-85BB-3951F71D3AF7}|laba6\\laba6.csproj|c:\\university\\o-optds\\laba6\\laba6\\classes\\individual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{990436D7-2E7D-46D1-85BB-3951F71D3AF7}|laba6\\laba6.csproj|solutionrelative:laba6\\classes\\individual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{990436D7-2E7D-46D1-85BB-3951F71D3AF7}|laba6\\laba6.csproj|c:\\university\\o-optds\\laba6\\laba6\\classes\\genericclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{990436D7-2E7D-46D1-85BB-3951F71D3AF7}|laba6\\laba6.csproj|solutionrelative:laba6\\classes\\genericclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GenericClass.cs",
+              "DocumentMoniker": "C:\\university\\o-optds\\laba6\\laba6\\Classes\\GenericClass.cs",
+              "RelativeDocumentMoniker": "laba6\\Classes\\GenericClass.cs",
+              "ToolTip": "C:\\university\\o-optds\\laba6\\laba6\\Classes\\GenericClass.cs",
+              "RelativeToolTip": "laba6\\Classes\\GenericClass.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowC4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:08:56.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegistrationLog.cs",
+              "DocumentMoniker": "C:\\university\\o-optds\\laba6\\laba6\\Classes\\RegistrationLog.cs",
+              "RelativeDocumentMoniker": "laba6\\Classes\\RegistrationLog.cs",
+              "ToolTip": "C:\\university\\o-optds\\laba6\\laba6\\Classes\\RegistrationLog.cs",
+              "RelativeToolTip": "laba6\\Classes\\RegistrationLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:06:48.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LegalEntity.cs",
+              "DocumentMoniker": "C:\\university\\o-optds\\laba6\\laba6\\Classes\\LegalEntity.cs",
+              "RelativeDocumentMoniker": "laba6\\Classes\\LegalEntity.cs",
+              "ToolTip": "C:\\university\\o-optds\\laba6\\laba6\\Classes\\LegalEntity.cs",
+              "RelativeToolTip": "laba6\\Classes\\LegalEntity.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAYwFMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:06:26.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Individual.cs",
+              "DocumentMoniker": "C:\\university\\o-optds\\laba6\\laba6\\Classes\\Individual.cs",
+              "RelativeDocumentMoniker": "laba6\\Classes\\Individual.cs",
+              "ToolTip": "C:\\university\\o-optds\\laba6\\laba6\\Classes\\Individual.cs",
+              "RelativeToolTip": "laba6\\Classes\\Individual.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:05:49.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\university\\o-optds\\laba6\\laba6\\Classes\\Client.cs",
+              "RelativeDocumentMoniker": "laba6\\Classes\\Client.cs",
+              "ToolTip": "C:\\university\\o-optds\\laba6\\laba6\\Classes\\Client.cs",
+              "RelativeToolTip": "laba6\\Classes\\Client.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAiwJAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:05:20.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\university\\o-optds\\laba6\\laba6\\Program.cs",
+              "RelativeDocumentMoniker": "laba6\\Program.cs",
+              "ToolTip": "C:\\university\\o-optds\\laba6\\laba6\\Program.cs",
+              "RelativeToolTip": "laba6\\Program.cs",
+              "ViewState": "AgIAANoAAAAAAAAAAAAqwPYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:04:11.625Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
