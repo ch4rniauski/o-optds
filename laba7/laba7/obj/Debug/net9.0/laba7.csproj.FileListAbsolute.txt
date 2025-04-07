@@ -1,0 +1,15 @@
+/Users/yauhenicharniauski/University/o-optds/laba7/laba7/bin/Debug/net9.0/laba7
+/Users/yauhenicharniauski/University/o-optds/laba7/laba7/bin/Debug/net9.0/laba7.deps.json
+/Users/yauhenicharniauski/University/o-optds/laba7/laba7/bin/Debug/net9.0/laba7.runtimeconfig.json
+/Users/yauhenicharniauski/University/o-optds/laba7/laba7/bin/Debug/net9.0/laba7.dll
+/Users/yauhenicharniauski/University/o-optds/laba7/laba7/bin/Debug/net9.0/laba7.pdb
+/Users/yauhenicharniauski/University/o-optds/laba7/laba7/obj/Debug/net9.0/laba7.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yauhenicharniauski/University/o-optds/laba7/laba7/obj/Debug/net9.0/laba7.AssemblyInfoInputs.cache
+/Users/yauhenicharniauski/University/o-optds/laba7/laba7/obj/Debug/net9.0/laba7.AssemblyInfo.cs
+/Users/yauhenicharniauski/University/o-optds/laba7/laba7/obj/Debug/net9.0/laba7.csproj.CoreCompileInputs.cache
+/Users/yauhenicharniauski/University/o-optds/laba7/laba7/obj/Debug/net9.0/laba7.sourcelink.json
+/Users/yauhenicharniauski/University/o-optds/laba7/laba7/obj/Debug/net9.0/laba7.dll
+/Users/yauhenicharniauski/University/o-optds/laba7/laba7/obj/Debug/net9.0/refint/laba7.dll
+/Users/yauhenicharniauski/University/o-optds/laba7/laba7/obj/Debug/net9.0/laba7.pdb
+/Users/yauhenicharniauski/University/o-optds/laba7/laba7/obj/Debug/net9.0/laba7.genruntimeconfig.cache
+/Users/yauhenicharniauski/University/o-optds/laba7/laba7/obj/Debug/net9.0/ref/laba7.dll

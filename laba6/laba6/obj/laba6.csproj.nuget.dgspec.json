@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\university\\o-optds\\laba6\\laba6\\laba6.csproj": {}
+    "/Users/yauhenicharniauski/University/o-optds/laba6/laba6/laba6.csproj": {}
   },
   "projects": {
-    "C:\\university\\o-optds\\laba6\\laba6\\laba6.csproj": {
+    "/Users/yauhenicharniauski/University/o-optds/laba6/laba6/laba6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\university\\o-optds\\laba6\\laba6\\laba6.csproj",
+        "projectUniqueName": "/Users/yauhenicharniauski/University/o-optds/laba6/laba6/laba6.csproj",
         "projectName": "laba6",
-        "projectPath": "C:\\university\\o-optds\\laba6\\laba6\\laba6.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\university\\o-optds\\laba6\\laba6\\obj\\",
+        "projectPath": "/Users/yauhenicharniauski/University/o-optds/laba6/laba6/laba6.csproj",
+        "packagesPath": "/Users/yauhenicharniauski/.nuget/packages/",
+        "outputPath": "/Users/yauhenicharniauski/University/o-optds/laba6/laba6/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/yauhenicharniauski/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
